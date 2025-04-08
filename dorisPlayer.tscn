@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://766l5wtbf6cl"]
+
+[ext_resource type="Texture2D" uid="uid://ctr7hptq8sw7c" path="res://Assets/Doris.png" id="1_amlsd"]
+
+[node name="Sprite2D" type="Sprite2D"]
+
+[node name="Doris" type="Sprite2D" parent="."]
+position = Vector2(168, 48)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_amlsd")
