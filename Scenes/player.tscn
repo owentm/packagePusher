@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cinip21v8kaye"]
+
+[ext_resource type="Script" uid="uid://c2h5twx8stvix" path="res://Scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://ctr7hptq8sw7c" path="res://Assets/Doris.png" id="2_6t5aa"]
+
+[node name="player" type="Node2D"]
+script = ExtResource("1_cvnsp")
+
+[node name="Doris" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_6t5aa")

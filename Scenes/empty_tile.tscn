@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://f6agmsflqnnt"]
+
+[ext_resource type="Texture2D" uid="uid://bj6qn3drk2xah" path="res://Assets/EmptyTile.png" id="1_1xgwp"]
+
+[node name="EmptyTile" type="Sprite2D"]
+visibility_layer = 2
+texture = ExtResource("1_1xgwp")
